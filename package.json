@@ -4,7 +4,7 @@
   "description": "play with node.js test runner",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --loader ts-node/esm --test src/**/*-test.ts test/**/*.ts"
   },
   "author": {
     "name": "kPherox",
@@ -23,5 +23,9 @@
   "engines": {
     "node": ">=20"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.3.1",
+    "ts-node": "^10.9.1"
+  }
 }
