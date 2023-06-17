@@ -1,0 +1,23 @@
+{
+  "name": "@kphrx/olive-branch",
+  "version": "0.0.1",
+  "description": "play with node.js test runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "kphrx <kphrx@kpherox.dev>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kphrx/olive-branch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kphrx/olive-branch/issues"
+  },
+  "homepage": "https://github.com/kphrx/olive-branch#readme",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
