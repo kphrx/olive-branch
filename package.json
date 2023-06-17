@@ -6,7 +6,10 @@
   "scripts": {
     "test": "node --test"
   },
-  "author": "kphrx <kphrx@kpherox.dev>",
+  "author": {
+    "name": "kPherox",
+    "email": "kphrx@kpherox.dev"
+  },
   "license": "Unlicense",
   "repository": {
     "type": "git",
